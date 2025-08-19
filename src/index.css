@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+} 
+.app {
+  display: grid;
+  place-items: center; /* Perfectly centers horizontally and vertically */
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e2d4ff, #f3eaff);
+}
+input {
+  padding: 0.6rem 1rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #9a6aff;
+}
+
+/* Button styling */
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: mediumaquamarine;
+}
+
+/* Weather display box */
+.weather {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  background-color: azure;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  margin-top: 1rem;
+  font-weight: bold;
+}
